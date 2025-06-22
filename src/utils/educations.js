@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
+  SiVercel,
 } from "react-icons/si";
 import {
   FaBootstrap,
@@ -95,5 +96,11 @@ export const education = [
     name: "Netlify",
     color: "#65d6d5",
     link: "https://Netlify.com",
+  },
+  {
+    icon: <SiVercel />,
+    name: "Vercel",
+    color: "black",
+    link: "https://Vercel.com",
   },
 ];

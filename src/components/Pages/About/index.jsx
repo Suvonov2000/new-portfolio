@@ -48,7 +48,7 @@ const About = () => {
 
             <p className="w-[660px] mb-5 text-kulrang_text about__biography--width">
               {t("hero.hello")} {t("hero.myName")}
-              <span className="text-orange"> {t("fullName")}</span>.
+              <span className="text-orange"> {t("fullName")}</span>
               {t("about.about_job")}
             </p>
 

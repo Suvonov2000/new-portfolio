@@ -1,11 +1,9 @@
 import { useTranslation } from "react-i18next";
 import table from "../assets/images/projects_img/table.png";
 import table_by_redux from "../assets/images/projects_img/table.png";
-import todo from "../assets/images/projects_img/todo.jpg";
 import digital_clock from "../assets/images/projects_img/digital_clock.png";
-
 import simple_portfolio from "../assets/images/projects_img/simple_portfolio.png";
-import weather from "../assets/images/projects_img/weather.jpg";
+import greenshop from "../assets/images/projects_img/greenshop.png";
 import table_by_context_api from "../assets/images/projects_img/table.png";
 import table_by_reducer from "../assets/images/projects_img/table.png";
 import new_portfolio from "../assets/images/projects_img/new_portfolio.png";
@@ -80,26 +78,29 @@ export const projects = [
     github_link: "https://github.com/Suvonov2000/Simple-portfolio",
     demo: "https://firsthtmlcssportfolio.vercel.app/",
   },
-  // {
-  //   id: 6,
-  //   src: todo,
-  //   title: "Todo App",
-  //   github_link: "https://github.com/Gulxumor/figma-projects/tree/to-do-list",
-  //   demo: "https://additional-todo-task.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   src: weather,
-  //   title: "Weather App",
-  //   github_link: "https://github.com/Gulxumor/figma-projects/tree/weather",
-  //   demo: "https://project-weather-ap.netlify.app",
-  // },
+
   {
     id: 9,
     src: digital_clock,
     title: "Digital Clock.",
     github_link: "https://github.com/Suvonov2000/Digital-clock",
     demo: "https://digital-clock-sage-phi.vercel.app/",
+  },
+
+  {
+    id: 10,
+    src: new_portfolio,
+    title: "Portfolio.",
+    github_link: "https://github.com/Suvonov2000/new-portfolio",
+    demo: "https://usme.com.uz/",
+  },
+
+  {
+    id: 11,
+    src: greenshop,
+    title: "Green Shop.",
+    github_link: "https://github.com/Suvonov2000/full-greenshop",
+    demo: "https://greenshop.usme.com.uz/",
   },
 ];
 
@@ -119,13 +120,9 @@ export const skills = [
     degree: "80%",
     skill: "JavaScript",
   },
+
   {
     id: 3,
-    degree: "55%",
-    skill: "TypeScript",
-  },
-  {
-    id: 4,
     degree: "72%",
     skill: "React JS",
   },
