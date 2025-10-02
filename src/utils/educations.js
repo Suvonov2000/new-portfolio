@@ -1,14 +1,19 @@
 import ts from "../assets/icons/ts.svg";
 import { AiFillHtml5, AiOutlineAntDesign } from "react-icons/ai";
 import { TbBrandMantine } from "react-icons/tb";
-import { DiJavascript1 } from "react-icons/di";
 import {
-  SiCanva,
-  SiMui,
+  DiJavascript1,
+  DiMongodb,
+  DiNodejs,
+  DiNodejsSmall,
+} from "react-icons/di";
+import {
+  SiExpress,
   SiNetlify,
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
+  SiTypescript,
   SiVercel,
 } from "react-icons/si";
 import {
@@ -37,6 +42,24 @@ export const education = [
     name: "JavaScript",
     color: "#efd81d",
     link: "https://www.w3schools.com/js/",
+  },
+  {
+    icon: <DiNodejsSmall />,
+    name: "Node.js",
+    color: "#339933",
+    link: "https://nodejs.org/",
+  },
+  {
+    icon: <SiExpress />,
+    name: "Express",
+    color: "#000000",
+    link: "https://expressjs.com/",
+  },
+  {
+    icon: <DiMongodb />,
+    name: "MongoDB",
+    color: "#47a248",
+    link: "https://www.mongodb.com/",
   },
 
   {

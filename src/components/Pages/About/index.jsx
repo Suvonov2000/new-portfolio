@@ -1,6 +1,6 @@
 import Bio from "./Bio";
 import Socials from "./Bio/social";
-import img from "../../../assets/images/boku.jpg";
+import img from "../../../assets/images/suvonov.jpg";
 import { styles } from "../../../utils/tailwind_variables";
 import { useTranslation } from "react-i18next";
 

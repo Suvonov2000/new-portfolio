@@ -1,7 +1,7 @@
 export const en = {
-  umidjon: "ウミドジョン",
-  suvonov: "スボノフ",
-  fullName: " スボノフ ウミドジョン ",
+  umidjon: "Umidjon",
+  suvonov: "Suvonov",
+  fullName: "スボノフ ウミドジョン ",
   navbar: {
     home: "Home",
     about: "About",
@@ -14,7 +14,9 @@ export const en = {
     myName: "",
     developer: "デベロッパー",
 
-    job_desc: `私はウェブサイトやウェブアプリケーションのフロントエンド部分、つまりユーザーが目にして操作する部分を構築しています。HTML、CSS、JavaScript などのウェブ言語を使って、ユーザーがサイトやアプリにアクセスし、常に操作できるようなウェブサイトやアプリケーションを作っています。そのため、人からは「いつも忙しそうですね」と思われています。`,
+    job_desc: `私はウェブサイトやウェブアプリケーションのフロントエンドおよびバックエンドの両方を構築できるフルスタック開発者です。フロントエンドでは、HTML、CSS、JavaScript、React、TypeScriptなどの技術を用いて、ユーザーにとって使いやすいインターフェースの開発が可能です。バックエンドでは、MERNスタック（MongoDB、Express.js、React、Node.js）を活用してサーバーサイドのアプリケーションを構築できます。
+
+常に新しい技術を学び、それを実践で活かすことで、安定性と使いやすさを兼ね備えたウェブアプリケーションの開発を目指しています。`,
   },
   about: {
     frontend_dev: "フロントエンド デベロッパー",
@@ -30,7 +32,7 @@ export const en = {
       address: "アドレス",
       fullAddress: "東京都板橋区小茂根1-28-16レオパレス小竹向原A201",
       interests: "趣味",
-      interests_desc: "コーディング、本を読む, 歴史の学習, 世界政治を分析する",
+      interests_desc: "コーディング、本を読む, 歴史の学習",
       study: "学校名",
       study_place: "日本経済大学",
       mail: "メール",
