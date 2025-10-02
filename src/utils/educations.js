@@ -44,6 +44,12 @@ export const education = [
     link: "https://www.w3schools.com/js/",
   },
   {
+    icon: <SiTypescript />,
+    name: "TypeScript",
+    color: "#3178c6",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
     icon: <DiNodejsSmall />,
     name: "Node.js",
     color: "#339933",
