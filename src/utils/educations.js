@@ -10,6 +10,7 @@ import {
 import {
   SiExpress,
   SiNetlify,
+  SiNextdotjs,
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
@@ -73,6 +74,12 @@ export const education = [
     name: "React JS",
     color: "#5ed3f3",
     link: "https://react.dev/",
+  },
+  {
+    icon: <SiNextdotjs />,
+    name: "Next JS",
+    color: "#000000",
+    link: "https://nextjs.org/",
   },
   {
     icon: <FaFigma />,
